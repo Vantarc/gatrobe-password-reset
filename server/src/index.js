@@ -114,7 +114,7 @@ app.post("/requestChange", async (req, res) => {
 app.use("/", express.static("../../client/build"))
 app.use("/*", express.static("../../client/build"))
 
-app.listen(3000, () => {
+app.listen(3002, () => {
     const opts = {
         server: "ipa.gatrobe.de",
         auth: {
