@@ -101,7 +101,7 @@ app.post("/requestChange", async (req, res) => {
         from: 'noreply@gatrobe.de',
         to: user.mail,
         subject: 'Verifiziere deine Email',
-        html: `Zum Zurücksetzen des Passworts, klicke <a href="https://localhost:3000/password/?sessionID=${sessionID}">hier</a>!\n\n Dieser Link läuft in 10 min ab.`
+        html: `Zum Zurücksetzen des Passworts, klicke <a href="https://sspc.gatrobe.de/password/?sessionID=${sessionID}">hier</a>!\n\n Dieser Link läuft in 10 min ab.`
       };
     transporter.sendMail(mailOptions, function(error, info){
         if (error) {
