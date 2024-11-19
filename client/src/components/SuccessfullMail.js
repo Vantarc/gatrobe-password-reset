@@ -21,7 +21,7 @@ export default function SuccessfullMail(props) {
         component="div"
         sx={{ width: '100%', textAlign: 'center', "marginBottom": "1.5rem", "marginTop": "0.5rem" }}
       >
-        Wir haben dir eine Email, mit einem Link zum Zurücksetzen des Passworts gesendet!
+        Wir haben dir eine Email mit einem Link zum Zurücksetzen des Passworts gesendet!
       </Typography>
     </div>
   );

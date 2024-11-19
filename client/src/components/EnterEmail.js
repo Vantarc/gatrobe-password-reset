@@ -77,7 +77,7 @@ export default function EnterEmail(props) {
                 component="div"
                 sx={{ width: '100%', textAlign: 'center', "marginBottom": "1.5rem", "marginTop": "0.5rem" }}
               >
-                Um dein Passwort zurückzusetzen gib deine Email ein
+                Um dein Passwort zurückzusetzen gib deine Email oder deinen Nutzernamen ein
               </Typography>
 
               <Box
@@ -91,7 +91,7 @@ export default function EnterEmail(props) {
                     required
                     fullWidth
                     id="email"
-                    placeholder="Deine Email Adresse"
+                    placeholder="Deine Email Adresse/Nutzername"
                     name="email"
                     autoComplete="email"
                     variant="outlined"
